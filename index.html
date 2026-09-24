@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <script src="./assets/theme.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Clínica Bethesda | Saúde integrada em Macapá e no Amapá</title>
+    <meta
+      name="description"
+      content="Consultas, exames, Bethesda TEA, reabilitação, Home Care e saúde ocupacional em 7 unidades no Amapá. Agende pelo WhatsApp."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body data-base="./" data-category="">
+    <header>
+      <div class="wrap bar">
+        <a class="brand" href="./index.html#inicio" aria-label="Clínica Bethesda, página inicial"
+          ><img src="./assets/images/logo.svg" alt="Clínica Bethesda" width="137" height="44"
+        /></a>
+        <button class="tt" type="button" aria-label="Ativar tema escuro">
+          <svg class="moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" /></svg
+          ><svg class="sun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" />
+            <path
+              d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"
+            />
+          </svg>
+        </button>
+        <button class="mb" aria-expanded="false" aria-controls="nv">Menu</button>
+        <nav id="nv" aria-label="Principal">
+          <ul>
+            <li class="nv-logo">
+              <a class="brand" href="./index.html#inicio"
+                ><img src="./assets/images/logo.svg" alt="Clínica Bethesda" width="118" height="38"
+              /></a>
+            </li>
+            <li><a href="./servicos.html">Serviços</a></li>
+            <li><a href="./tea.html">Bethesda TEA</a></li>
+            <li><a href="./homecare.html">Home Care</a></li>
+            <li><a href="./empresas.html">Para Empresas</a></li>
+            <li><a href="./index.html#unidades">Unidades</a></li>
+            <li><a href="./convenios.html">Convênios</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+          </ul>
+        </nav>
+        <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+          >Agendar pelo WhatsApp</a
+        >
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="wrap hero-g">
+          <div>
+            <h1>Cuidado que acolhe, do primeiro contato à recuperação.</h1>
+            <p class="lead">
+              Consultas, exames, terapias, reabilitação e Home Care reunidos em uma rede de saúde
+              com 7 unidades no Amapá.
+            </p>
+            <div class="btns">
+              <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+                >Agendar pelo WhatsApp</a
+              ><a class="btn btn-line" href="./servicos.html">Conheça os serviços</a>
+            </div>
+            <small>Atendemos em Macapá, Pedra Branca do Amapari e Laranjal do Jari.</small>
+          </div>
+          <div
+            class="ph r54 hero-img"
+            data-img="hero"
+            data-label="Foto sugerida: recepção acolhedora, paciente sendo recebida pela equipe"
+          ></div>
+        </div>
+      </section>
+      <section class="find">
+        <div class="wrap">
+          <div class="fbox" role="group" aria-labelledby="fh">
+            <h2 id="fh">Como podemos ajudar?</h2>
+            <div class="chips" id="chips">
+              <button class="chip" aria-pressed="false">Consulta médica</button
+              ><button class="chip" aria-pressed="false">Exames</button
+              ><button class="chip" aria-pressed="false">Criança ou TEA</button
+              ><button class="chip" aria-pressed="false">Fisioterapia</button
+              ><button class="chip" aria-pressed="false">Curativos e medicação</button
+              ><button class="chip" aria-pressed="false">Home Care</button
+              ><button class="chip" aria-pressed="false">Psicologia ou Psiquiatria</button>
+            </div>
+            <a
+              class="btn btn-wa"
+              id="go"
+              href="https://wa.link/9vzwi5"
+              target="_blank"
+              rel="noopener"
+              >Continuar no WhatsApp</a
+            >
+          </div>
+        </div>
+        <ul class="wrap facts">
+          <li><b>Desde 2016</b><span>em Macapá</span></li>
+          <li><b>7 unidades</b><span>no Amapá</span></li>
+          <li><b>10 especialidades</b><span>e equipe multidisciplinar</span></li>
+          <li><b>10 convênios</b><span>atendidos</span></li>
+        </ul>
+      </section>
+      <section id="servicos">
+        <div class="wrap">
+          <h2>Principais serviços</h2>
+          <p class="lead">Escolha uma área para ver os atendimentos disponíveis.</p>
+          <div class="grid">
+            <a class="sc" href="./servicos/c.html"
+              ><div class="ph r43" data-img="s-c" data-label="Foto sugerida: consulta médica"></div>
+              <h3>Consultas e especialidades</h3>
+              <p>Do clínico geral ao especialista.</p></a
+            ><a class="sc" href="./servicos/m.html"
+              ><div
+                class="ph r43"
+                data-img="s-m"
+                data-label="Foto sugerida: atendimento psicológico"
+              ></div>
+              <h3>Saúde mental</h3>
+              <p>Psicologia e Psiquiatria, com escuta acolhedora.</p></a
+            ><a class="sc" href="./servicos/t.html"
+              ><div
+                class="ph r43"
+                data-img="s-t"
+                data-label="Foto sugerida: terapia infantil"
+              ></div>
+              <h3>Bethesda TEA e desenvolvimento</h3>
+              <p>Terapias para crianças e famílias.</p></a
+            ><a class="sc" href="./servicos/r.html"
+              ><div
+                class="ph r43"
+                data-img="s-r"
+                data-label="Foto sugerida: sessão de fisioterapia"
+              ></div>
+              <h3>Reabilitação e bem-estar</h3>
+              <p>Fisioterapia, Pilates e reabilitação motora.</p></a
+            ><a class="sc" href="./servicos/e.html"
+              ><div class="ph r43" data-img="s-e" data-label="Foto sugerida: exame de imagem"></div>
+              <h3>Exames e diagnóstico</h3>
+              <p>Imagem, coração, audição e laboratório.</p></a
+            ><a class="sc" href="./servicos/a.html"
+              ><div
+                class="ph r43"
+                data-img="s-a"
+                data-label="Foto sugerida: curativo ou visita domiciliar"
+              ></div>
+              <h3>Ambulatório e Home Care</h3>
+              <p>Curativos, medicação e cuidado em casa.</p></a
+            >
+          </div>
+          <div class="more">
+            <a class="btn btn-g" href="./servicos.html">Conheça todos os serviços</a>
+          </div>
+        </div>
+      </section>
+      <section class="soft" style="padding: 64px 0">
+        <div class="wrap two">
+          <div class="feat" id="tea">
+            <div
+              class="ph r169"
+              data-img="f-tea"
+              data-label="Foto sugerida: Sala Sensorial do Bethesda TEA"
+            ></div>
+            <h3>Bethesda TEA</h3>
+            <p>
+              Recepção tranquila, Sala Sensorial, Psicomotricidade, Hidroterapia e equipe
+              terapêutica reunida em um só lugar.
+            </p>
+            <div class="btns">
+              <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+                >Falar com a equipe TEA</a
+              ><a class="btn btn-line" href="./tea.html">Saiba mais</a>
+            </div>
+          </div>
+          <div class="feat" id="homecare">
+            <div
+              class="ph r169"
+              data-img="f-home"
+              data-label="Foto sugerida: profissional atendendo paciente em casa"
+            ></div>
+            <h3>Home Care</h3>
+            <p>
+              Assistência especializada no conforto do lar, com equipe multidisciplinar de médicos,
+              enfermeiros, fisioterapeutas, fonoaudiólogos, nutricionistas e psicólogos.
+            </p>
+            <div class="btns">
+              <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+                >Solicitar avaliação</a
+              ><a class="btn btn-line" href="./homecare.html">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="wrap">
+          <h2>Por que a Bethesda</h2>
+          <div class="why">
+            <div>
+              <h3>Acolhimento</h3>
+              <p>Cada pessoa é recebida com empatia, respeito e atenção individual.</p>
+            </div>
+            <div>
+              <h3>Equipe integrada</h3>
+              <p>Profissionais de várias áreas trabalhando juntos em torno do paciente.</p>
+            </div>
+            <div>
+              <h3>Segurança</h3>
+              <p>Protocolos rigorosos, com triagem, esterilização e biossegurança.</p>
+            </div>
+            <div>
+              <h3>Pioneirismo em Home Care</h3>
+              <p>Primeira clínica do Amapá a integrar atendimento domiciliar multidisciplinar.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="soft" id="convenios-home" style="padding: 56px 0">
+        <div class="wrap">
+          <h2>Convênios atendidos</h2>
+          <p class="lead">
+            A cobertura pode variar por unidade e serviço. Confirme pelo WhatsApp antes de agendar.
+          </p>
+          <div class="plans">
+            <span>FUSMA</span><span>FUSEX</span><span>FUNSA</span><span>Fundação Assefaz</span
+            ><span>Capesesp</span><span>Saúde Caixa</span><span>Cosap</span><span>Cassi</span
+            ><span>E-Vida</span><span>SulAmérica</span>
+          </div>
+          <div class="btns">
+            <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+              >Meu plano é aceito?</a
+            ><a class="btn btn-line" href="./convenios.html">Ver convênios</a>
+          </div>
+        </div>
+      </section>
+      <section id="sobre">
+        <div class="wrap">
+          <h2>Nossa estrutura e equipe</h2>
+          <p class="lead">
+            Ambientes planejados para acolher: recepção confortável, consultórios reservados,
+            triagem, salas de exames e espaços terapêuticos.
+          </p>
+          <div class="gal">
+            <div class="ph r43" data-img="g1" data-label="Foto sugerida: recepção"></div>
+            <div class="ph r43" data-img="g2" data-label="Foto sugerida: consultório"></div>
+            <div
+              class="ph r43"
+              data-img="g3"
+              data-label="Foto sugerida: sala de fisioterapia ou Pilates"
+            ></div>
+          </div>
+          <div class="two" style="align-items: center">
+            <div class="ph r43" data-img="team" data-label="Foto sugerida: gestores e equipe"></div>
+            <div>
+              <h3 style="font-size: 1.4rem">Casa de Misericórdia</h3>
+              <p class="lead">
+                Bethesda significa “Casa de Misericórdia”. Para nós, saúde vai além do tratamento: é
+                acolhimento, respeito e compromisso com cada pessoa.
+              </p>
+              <div class="people">
+                <p>
+                  <b>Rosely do Nascimento</b>, CEO. Enfermeira especialista em feridas e
+                  fonoaudióloga.
+                </p>
+                <p><b>Nathanael do Nascimento</b>, Diretor Administrativo.</p>
+              </div>
+              <div class="btns" style="margin-top: 16px">
+                <a class="btn btn-line" href="./sobre.html">Conheça nossa história</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: 0 0 72px">
+        <div class="wrap">
+          <div class="cta" id="empresas">
+            <div>
+              <h2 style="font-size: 1.4rem">Saúde ocupacional para a sua empresa</h2>
+              <p class="lead" style="margin: 6px 0 0">
+                Médico ocupacional, programas ocupacionais, E-Social, audiometria, espirometria,
+                eletrocardiograma e exames laboratoriais.
+              </p>
+            </div>
+            <a class="btn btn-g" href="./empresas.html">Conheça a Bethesda Ocupacional</a>
+          </div>
+        </div>
+      </section>
+      <section class="soft" id="unidades">
+        <div class="wrap">
+          <h2>Nossas unidades e contatos</h2>
+          <p class="lead">Escolha a unidade mais próxima e chame direto no WhatsApp.</p>
+          <div class="grid" id="ugrid">
+            <div class="unit">
+              <div class="ph r43" data-img="u-matriz" data-label="Foto sugerida: fachada"></div>
+              <h3>Bethesda Matriz</h3>
+              <p style="margin: 0">Consultas, exames e especialidades</p>
+              <address>Av. Anhanguera, 1478A, Buritizal, Macapá<br />(96) 98125-3776</address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >WhatsApp</a
+                ><a
+                  class="btn btn-line"
+                  href="https://www.google.com/maps/search/?api=1&query=Av.%20Anhanguera%2C%201478A%2C%20Buritizal%2C%20Macap%C3%A1%20AP"
+                  target="_blank"
+                  rel="noopener"
+                  >Como chegar</a
+                ><a class="btn btn-line" href="./unidade/matriz.html">Ver unidade</a>
+              </div>
+            </div>
+            <div class="unit">
+              <div class="ph r43" data-img="u-tea" data-label="Foto sugerida: fachada"></div>
+              <h3>Bethesda TEA</h3>
+              <p style="margin: 0">Terapias e desenvolvimento infantil</p>
+              <address>Av. Anhanguera, 1478A, Buritizal, Macapá</address>
+              <div class="row">
+                <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+                  >WhatsApp</a
+                ><a
+                  class="btn btn-line"
+                  href="https://www.google.com/maps/search/?api=1&query=Av.%20Anhanguera%2C%201478A%2C%20Buritizal%2C%20Macap%C3%A1%20AP"
+                  target="_blank"
+                  rel="noopener"
+                  >Como chegar</a
+                ><a class="btn btn-line" href="./unidade/tea.html">Ver unidade</a>
+              </div>
+            </div>
+            <div class="unit">
+              <div
+                class="ph r43"
+                data-img="u-ambulatorial"
+                data-label="Foto sugerida: fachada"
+              ></div>
+              <h3>Bethesda Ambulatorial</h3>
+              <p style="margin: 0">Curativos, medicação e Home Care</p>
+              <address>Av. Clodóvio Coelho, 1601, Buritizal, Macapá<br />(96) 99912-0037</address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596999120037?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ambulatorial."
+                  target="_blank"
+                  rel="noopener"
+                  >WhatsApp</a
+                ><a
+                  class="btn btn-line"
+                  href="https://www.google.com/maps/search/?api=1&query=Av.%20Clod%C3%B3vio%20Coelho%2C%201601%2C%20Buritizal%2C%20Macap%C3%A1%20AP"
+                  target="_blank"
+                  rel="noopener"
+                  >Como chegar</a
+                ><a class="btn btn-line" href="./unidade/ambulatorial.html">Ver unidade</a>
+              </div>
+            </div>
+            <div class="unit">
+              <div class="ph r43" data-img="u-reabilitar" data-label="Foto sugerida: fachada"></div>
+              <h3>Bethesda Reabilitar</h3>
+              <p style="margin: 0">Fisioterapia, Pilates e estética</p>
+              <address>R. Hildemar Maia, 2554, Buritizal, Macapá<br />(96) 98141-0090</address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Reabilitar."
+                  target="_blank"
+                  rel="noopener"
+                  >WhatsApp</a
+                ><a
+                  class="btn btn-line"
+                  href="https://www.google.com/maps/search/?api=1&query=R.%20Hildemar%20Maia%2C%202554%2C%20Buritizal%2C%20Macap%C3%A1%20AP"
+                  target="_blank"
+                  rel="noopener"
+                  >Como chegar</a
+                ><a class="btn btn-line" href="./unidade/reabilitar.html">Ver unidade</a>
+              </div>
+            </div>
+            <div class="unit">
+              <div
+                class="ph r43"
+                data-img="u-ocupacional"
+                data-label="Foto sugerida: fachada"
+              ></div>
+              <h3>Bethesda Ocupacional</h3>
+              <p style="margin: 0">Saúde do trabalhador e empresas</p>
+              <address>Av. Anhanguera, 1508, Buritizal, Macapá<br />(96) 98141-0090</address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >WhatsApp</a
+                ><a
+                  class="btn btn-line"
+                  href="https://www.google.com/maps/search/?api=1&query=Av.%20Anhanguera%2C%201508%2C%20Buritizal%2C%20Macap%C3%A1%20AP"
+                  target="_blank"
+                  rel="noopener"
+                  >Como chegar</a
+                ><a class="btn btn-line" href="./unidade/ocupacional.html">Ver unidade</a>
+              </div>
+            </div>
+            <div class="unit">
+              <div
+                class="ph r43"
+                data-img="u-pedra-branca"
+                data-label="Foto sugerida: fachada"
+              ></div>
+              <h3>Bethesda Pedra Branca</h3>
+              <p style="margin: 0">Consultas e exames</p>
+              <address>
+                R. Francisco Brás, 275, Centro, Pedra Branca do Amapari<br />(96) 98414-5366
+              </address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596984145366?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Pedra%20Branca."
+                  target="_blank"
+                  rel="noopener"
+                  >WhatsApp</a
+                ><a
+                  class="btn btn-line"
+                  href="https://www.google.com/maps/search/?api=1&query=R.%20Francisco%20Br%C3%A1s%2C%20275%2C%20Centro%2C%20Pedra%20Branca%20do%20Amapari%20AP"
+                  target="_blank"
+                  rel="noopener"
+                  >Como chegar</a
+                ><a class="btn btn-line" href="./unidade/pedra-branca.html">Ver unidade</a>
+              </div>
+            </div>
+            <div class="unit">
+              <div class="ph r43" data-img="u-laranjal" data-label="Foto sugerida: fachada"></div>
+              <h3>Bethesda Laranjal do Jari</h3>
+              <p style="margin: 0">Atendimento no sul do Amapá</p>
+              <address>Av. Tancredo Neves, 2235, Agreste, Laranjal do Jari</address>
+              <div class="row">
+                <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+                  >WhatsApp</a
+                ><a
+                  class="btn btn-line"
+                  href="https://www.google.com/maps/search/?api=1&query=Av.%20Tancredo%20Neves%2C%202235%2C%20Agreste%2C%20Laranjal%20do%20Jari%20AP"
+                  target="_blank"
+                  rel="noopener"
+                  >Como chegar</a
+                ><a class="btn btn-line" href="./unidade/laranjal.html">Ver unidade</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="wrap">
+          <h2>Perguntas frequentes</h2>
+          <details>
+            <summary>Como agendo uma consulta?</summary>
+            <p>
+              Pelo botão de WhatsApp, em qualquer página. Escolha o assunto e a mensagem já sai
+              pronta.
+            </p>
+          </details>
+          <details>
+            <summary>Vocês atendem meu convênio?</summary>
+            <p>
+              Atendemos os planos listados acima. Como a cobertura varia por serviço, confirme com a
+              unidade.
+            </p>
+          </details>
+          <details>
+            <summary>Qual unidade devo procurar?</summary>
+            <p>
+              Consultas e exames: Matriz. Terapias infantis: Bethesda TEA. Fisioterapia e Pilates:
+              Reabilitar. Curativos e medicação: Ambulatorial. Exames para empresas: Ocupacional.
+            </p>
+          </details>
+          <details>
+            <summary>Vocês atendem no interior?</summary>
+            <p>Sim, temos unidades em Pedra Branca do Amapari e em Laranjal do Jari.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap cols">
+        <div>
+          <a
+            class="brand brand-f"
+            href="./index.html#inicio"
+            aria-label="Clínica Bethesda, página inicial"
+            ><img src="./assets/images/logo.svg" alt="Clínica Bethesda" width="125" height="40"
+          /></a>
+          <p>Rede de saúde sediada em Macapá, Amapá.</p>
+          <p>
+            Instagram:
+            <a href="https://www.instagram.com/clinicabethesda/" target="_blank" rel="noopener"
+              >@clinicabethesda</a
+            >
+          </p>
+        </div>
+        <div>
+          <p>Matriz: (96) 98125-3776<br />Av. Anhanguera, 1478A, Buritizal, Macapá-AP</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="sticky">
+      <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+        >WhatsApp</a
+      >
+      <a class="btn btn-line" href="tel:+5596981253776">Ligar</a>
+      <a class="btn btn-line" href="./index.html#unidades">Unidades</a>
+    </div>
+
+    <script src="./assets/site.js" defer></script>
+  </body>
+</html>

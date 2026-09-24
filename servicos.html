@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <script src="./assets/theme.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Serviços | Clínica Bethesda</title>
+    <meta name="description" content="Busque pelo nome ou escolha uma categoria." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body data-base="./" data-category="">
+    <header>
+      <div class="wrap bar">
+        <a class="brand" href="./index.html#inicio" aria-label="Clínica Bethesda, página inicial"
+          ><img src="./assets/images/logo.svg" alt="Clínica Bethesda" width="137" height="44"
+        /></a>
+        <button class="tt" type="button" aria-label="Ativar tema escuro">
+          <svg class="moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" /></svg
+          ><svg class="sun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" />
+            <path
+              d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"
+            />
+          </svg>
+        </button>
+        <button class="mb" aria-expanded="false" aria-controls="nv">Menu</button>
+        <nav id="nv" aria-label="Principal">
+          <ul>
+            <li class="nv-logo">
+              <a class="brand" href="./index.html#inicio"
+                ><img src="./assets/images/logo.svg" alt="Clínica Bethesda" width="118" height="38"
+              /></a>
+            </li>
+            <li><a href="./servicos.html">Serviços</a></li>
+            <li><a href="./tea.html">Bethesda TEA</a></li>
+            <li><a href="./homecare.html">Home Care</a></li>
+            <li><a href="./empresas.html">Para Empresas</a></li>
+            <li><a href="./index.html#unidades">Unidades</a></li>
+            <li><a href="./convenios.html">Convênios</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+          </ul>
+        </nav>
+        <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+          >Agendar pelo WhatsApp</a
+        >
+      </div>
+    </header>
+
+    <main id="page" class="pg">
+      <section>
+        <div class="wrap">
+          <p class="crumb"><a href="./index.html#inicio">Início</a> / Serviços</p>
+          <h1>Serviços</h1>
+          <p class="lead">Busque pelo nome ou escolha uma categoria.</p>
+          <input
+            class="search"
+            id="q"
+            type="search"
+            placeholder="Ex.: fisioterapia, pediatria, exames"
+            aria-label="Buscar serviços"
+          />
+          <div class="chips" id="cf">
+            <button class="chip" data-c="" aria-pressed="true">Todos</button
+            ><button class="chip" data-c="c" aria-pressed="false">Consultas e especialidades</button
+            ><button class="chip" data-c="m" aria-pressed="false">Saúde mental</button
+            ><button class="chip" data-c="t" aria-pressed="false">TEA e desenvolvimento</button
+            ><button class="chip" data-c="r" aria-pressed="false">Reabilitação e bem-estar</button
+            ><button class="chip" data-c="e" aria-pressed="false">Exames e diagnóstico</button
+            ><button class="chip" data-c="a" aria-pressed="false">
+              Ambulatório e cuidado em casa</button
+            ><button class="chip" data-c="o" aria-pressed="false">Saúde ocupacional</button>
+          </div>
+          <div class="grid" id="res">
+            <div class="unit">
+              <h3>Clínica Geral</h3>
+              <p style="margin: 0; color: var(--muted)">Consultas e especialidades</p>
+              <address>Onde: <a href="./unidade/matriz.html">Matriz</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Cardiologia</h3>
+              <p style="margin: 0; color: var(--muted)">Consultas e especialidades</p>
+              <address>Onde: <a href="./unidade/matriz.html">Matriz</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Dermatologia</h3>
+              <p style="margin: 0; color: var(--muted)">Consultas e especialidades</p>
+              <address>Onde: <a href="./unidade/matriz.html">Matriz</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Ginecologia</h3>
+              <p style="margin: 0; color: var(--muted)">Consultas e especialidades</p>
+              <address>Onde: <a href="./unidade/matriz.html">Matriz</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Infectologia</h3>
+              <p style="margin: 0; color: var(--muted)">Consultas e especialidades</p>
+              <address>Onde: <a href="./unidade/matriz.html">Matriz</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Neurologia</h3>
+              <p style="margin: 0; color: var(--muted)">Consultas e especialidades</p>
+              <address>Onde: <a href="./unidade/matriz.html">Matriz</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Ortopedia</h3>
+              <p style="margin: 0; color: var(--muted)">Consultas e especialidades</p>
+              <address>Onde: <a href="./unidade/matriz.html">Matriz</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Pediatria</h3>
+              <p style="margin: 0; color: var(--muted)">Consultas e especialidades</p>
+              <address>Onde: <a href="./unidade/matriz.html">Matriz</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Pneumologia</h3>
+              <p style="margin: 0; color: var(--muted)">Consultas e especialidades</p>
+              <address>Onde: <a href="./unidade/matriz.html">Matriz</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Nutrição</h3>
+              <p style="margin: 0; color: var(--muted)">Consultas e especialidades</p>
+              <address>
+                Onde: <a href="./unidade/matriz.html">Matriz</a>,
+                <a href="./unidade/tea.html">TEA</a>
+              </address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Psicologia</h3>
+              <p style="margin: 0; color: var(--muted)">Saúde mental</p>
+              <address>
+                Onde: <a href="./unidade/matriz.html">Matriz</a>,
+                <a href="./unidade/tea.html">TEA</a>
+              </address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Psiquiatria</h3>
+              <p style="margin: 0; color: var(--muted)">Saúde mental</p>
+              <address>
+                Onde: <a href="./unidade/matriz.html">Matriz</a>,
+                <a href="./unidade/tea.html">TEA</a>
+              </address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Fonoaudiologia</h3>
+              <p style="margin: 0; color: var(--muted)">TEA e desenvolvimento</p>
+              <address>Onde: <a href="./unidade/tea.html">TEA</a></address>
+              <div class="row">
+                <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Terapia Ocupacional</h3>
+              <p style="margin: 0; color: var(--muted)">TEA e desenvolvimento</p>
+              <address>Onde: <a href="./unidade/tea.html">TEA</a></address>
+              <div class="row">
+                <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Psicomotricidade</h3>
+              <p style="margin: 0; color: var(--muted)">TEA e desenvolvimento</p>
+              <address>Onde: <a href="./unidade/tea.html">TEA</a></address>
+              <div class="row">
+                <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Psicopedagogia</h3>
+              <p style="margin: 0; color: var(--muted)">TEA e desenvolvimento</p>
+              <address>Onde: <a href="./unidade/tea.html">TEA</a></address>
+              <div class="row">
+                <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Musicoterapia</h3>
+              <p style="margin: 0; color: var(--muted)">TEA e desenvolvimento</p>
+              <address>Onde: <a href="./unidade/tea.html">TEA</a></address>
+              <div class="row">
+                <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Neuropsicologia</h3>
+              <p style="margin: 0; color: var(--muted)">TEA e desenvolvimento</p>
+              <address>Onde: <a href="./unidade/tea.html">TEA</a></address>
+              <div class="row">
+                <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Fisioterapia</h3>
+              <p style="margin: 0; color: var(--muted)">Reabilitação e bem-estar</p>
+              <address>
+                Onde: <a href="./unidade/tea.html">TEA</a>,
+                <a href="./unidade/reabilitar.html">Reabilitar</a>
+              </address>
+              <div class="row">
+                <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Estética</h3>
+              <p style="margin: 0; color: var(--muted)">Reabilitação e bem-estar</p>
+              <address>
+                Onde: <a href="./unidade/ambulatorial.html">Ambulatorial</a>,
+                <a href="./unidade/reabilitar.html">Reabilitar</a>
+              </address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596999120037?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ambulatorial."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Reabilitação Motora</h3>
+              <p style="margin: 0; color: var(--muted)">Reabilitação e bem-estar</p>
+              <address>Onde: <a href="./unidade/reabilitar.html">Reabilitar</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Reabilitar."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Pilates</h3>
+              <p style="margin: 0; color: var(--muted)">Reabilitação e bem-estar</p>
+              <address>Onde: <a href="./unidade/reabilitar.html">Reabilitar</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Reabilitar."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Massoterapia</h3>
+              <p style="margin: 0; color: var(--muted)">Reabilitação e bem-estar</p>
+              <address>Onde: <a href="./unidade/reabilitar.html">Reabilitar</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Reabilitar."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Reflexologia</h3>
+              <p style="margin: 0; color: var(--muted)">Reabilitação e bem-estar</p>
+              <address>Onde: <a href="./unidade/reabilitar.html">Reabilitar</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Reabilitar."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Aluguel de equipamentos hospitalares</h3>
+              <p style="margin: 0; color: var(--muted)">Reabilitação e bem-estar</p>
+              <address>Onde: <a href="./unidade/reabilitar.html">Reabilitar</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Reabilitar."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Raio-X</h3>
+              <p style="margin: 0; color: var(--muted)">Exames e diagnóstico</p>
+              <address>
+                Onde: <a href="./unidade/matriz.html">Matriz</a>,
+                <a href="./unidade/pedra-branca.html">Pedra Branca</a>
+              </address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981253776?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Matriz."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Ultrassonografia</h3>
+              <p style="margin: 0; color: var(--muted)">Exames e diagnóstico</p>
+              <address>
+                Onde: <a href="./unidade/pedra-branca.html">Pedra Branca</a>,
+                <a href="./unidade/ocupacional.html">Ocupacional</a>
+              </address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596984145366?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Pedra%20Branca."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Eletrocardiograma</h3>
+              <p style="margin: 0; color: var(--muted)">Exames e diagnóstico</p>
+              <address>
+                Onde: <a href="./unidade/ocupacional.html">Ocupacional</a>,
+                <a href="./unidade/pedra-branca.html">Pedra Branca</a>
+              </address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Espirometria</h3>
+              <p style="margin: 0; color: var(--muted)">Exames e diagnóstico</p>
+              <address>
+                Onde: <a href="./unidade/ocupacional.html">Ocupacional</a>,
+                <a href="./unidade/pedra-branca.html">Pedra Branca</a>
+              </address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Audiometria</h3>
+              <p style="margin: 0; color: var(--muted)">Exames e diagnóstico</p>
+              <address>
+                Onde: <a href="./unidade/ocupacional.html">Ocupacional</a>,
+                <a href="./unidade/pedra-branca.html">Pedra Branca</a>
+              </address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Acuidade Visual</h3>
+              <p style="margin: 0; color: var(--muted)">Exames e diagnóstico</p>
+              <address>Onde: <a href="./unidade/ocupacional.html">Ocupacional</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Eletroencefalograma</h3>
+              <p style="margin: 0; color: var(--muted)">Exames e diagnóstico</p>
+              <address>Onde: <a href="./unidade/ocupacional.html">Ocupacional</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Holter</h3>
+              <p style="margin: 0; color: var(--muted)">Exames e diagnóstico</p>
+              <address>Onde: <a href="./unidade/ocupacional.html">Ocupacional</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>MAPA</h3>
+              <p style="margin: 0; color: var(--muted)">Exames e diagnóstico</p>
+              <address>Onde: <a href="./unidade/ocupacional.html">Ocupacional</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Teste Ergométrico</h3>
+              <p style="margin: 0; color: var(--muted)">Exames e diagnóstico</p>
+              <address>Onde: <a href="./unidade/ocupacional.html">Ocupacional</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Oftalmológico</h3>
+              <p style="margin: 0; color: var(--muted)">Exames e diagnóstico</p>
+              <address>Onde: <a href="./unidade/ocupacional.html">Ocupacional</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Exames Laboratoriais</h3>
+              <p style="margin: 0; color: var(--muted)">Exames e diagnóstico</p>
+              <address>Onde: <a href="./unidade/ocupacional.html">Ocupacional</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Curativos de média e alta complexidade</h3>
+              <p style="margin: 0; color: var(--muted)">Ambulatório e cuidado em casa</p>
+              <address>Onde: <a href="./unidade/ambulatorial.html">Ambulatorial</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596999120037?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ambulatorial."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Aplicação de medicamentos</h3>
+              <p style="margin: 0; color: var(--muted)">Ambulatório e cuidado em casa</p>
+              <address>Onde: <a href="./unidade/ambulatorial.html">Ambulatorial</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596999120037?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ambulatorial."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Ozonioterapia</h3>
+              <p style="margin: 0; color: var(--muted)">Ambulatório e cuidado em casa</p>
+              <address>Onde: <a href="./unidade/ambulatorial.html">Ambulatorial</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596999120037?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ambulatorial."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Laserterapia</h3>
+              <p style="margin: 0; color: var(--muted)">Ambulatório e cuidado em casa</p>
+              <address>Onde: <a href="./unidade/ambulatorial.html">Ambulatorial</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596999120037?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ambulatorial."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Ambulância</h3>
+              <p style="margin: 0; color: var(--muted)">Ambulatório e cuidado em casa</p>
+              <address>Onde: <a href="./unidade/ambulatorial.html">Ambulatorial</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596999120037?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ambulatorial."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Home Care 24h</h3>
+              <p style="margin: 0; color: var(--muted)">Ambulatório e cuidado em casa</p>
+              <address>Onde: <a href="./unidade/ambulatorial.html">Ambulatorial</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596999120037?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ambulatorial."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Médico Ocupacional</h3>
+              <p style="margin: 0; color: var(--muted)">Saúde ocupacional</p>
+              <address>Onde: <a href="./unidade/ocupacional.html">Ocupacional</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>Programas Ocupacionais</h3>
+              <p style="margin: 0; color: var(--muted)">Saúde ocupacional</p>
+              <address>Onde: <a href="./unidade/ocupacional.html">Ocupacional</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+            <div class="unit">
+              <h3>E-Social</h3>
+              <p style="margin: 0; color: var(--muted)">Saúde ocupacional</p>
+              <address>Onde: <a href="./unidade/ocupacional.html">Ocupacional</a></address>
+              <div class="row">
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/5596981410090?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20na%20Bethesda%20Ocupacional."
+                  target="_blank"
+                  rel="noopener"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap cols">
+        <div>
+          <a
+            class="brand brand-f"
+            href="./index.html#inicio"
+            aria-label="Clínica Bethesda, página inicial"
+            ><img src="./assets/images/logo.svg" alt="Clínica Bethesda" width="125" height="40"
+          /></a>
+          <p>Rede de saúde sediada em Macapá, Amapá.</p>
+          <p>
+            Instagram:
+            <a href="https://www.instagram.com/clinicabethesda/" target="_blank" rel="noopener"
+              >@clinicabethesda</a
+            >
+          </p>
+        </div>
+        <div>
+          <p>Matriz: (96) 98125-3776<br />Av. Anhanguera, 1478A, Buritizal, Macapá-AP</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="sticky">
+      <a class="btn btn-wa" href="https://wa.link/9vzwi5" target="_blank" rel="noopener"
+        >WhatsApp</a
+      >
+      <a class="btn btn-line" href="tel:+5596981253776">Ligar</a>
+      <a class="btn btn-line" href="./index.html#unidades">Unidades</a>
+    </div>
+
+    <script src="./assets/site.js" defer></script>
+  </body>
+</html>

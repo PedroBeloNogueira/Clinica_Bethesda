@@ -1,0 +1,12 @@
+{
+  "name": "clinica-bethesda",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "start": "node scripts/serve.cjs",
+    "format": "node scripts/format.cjs"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.8"
+  }
+}
