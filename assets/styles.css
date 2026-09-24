@@ -251,6 +251,8 @@ nav a:hover {
 .ph.has::after {
   display: none;
 }
+.ph > .fotos { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.hero-img > .fotos { object-position: center 40%; }
 .r43 {
   aspect-ratio: 4/3;
 }
@@ -765,4 +767,18 @@ nav {
   html {
     scroll-behavior: auto;
   }
+}
+
+/* Fotos dos cards de Principais serviços. */
+#servicos .foto-servico {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#servicos .ph:has(> .foto-servico)::after {
+  display: none;
 }
