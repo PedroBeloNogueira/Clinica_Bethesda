@@ -146,6 +146,9 @@ header {
   background: var(--bg);
   border-bottom: 1px solid var(--line);
 }
+.bar.wrap {
+  width: min(1400px, 100% - 40px);
+}
 .bar {
   display: flex;
   align-items: center;
@@ -176,6 +179,7 @@ nav ul {
   padding: 0;
 }
 nav a {
+  white-space: nowrap;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.95rem;
@@ -187,6 +191,7 @@ nav a:hover {
   color: var(--green);
 }
 .mb {
+  flex-shrink: 0;
   display: none;
   margin-left: auto;
   min-height: 44px;
@@ -198,7 +203,7 @@ nav a:hover {
   font: 700 0.95rem var(--sans);
   cursor: pointer;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1320px) {
   .mb {
     display: inline-flex;
     align-items: center;
@@ -412,6 +417,18 @@ nav a:hover {
     grid-template-columns: 1fr;
   }
 }
+.ph > .foto-destaque {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.ph:has(> .foto-destaque)::after {
+  display: none;
+}
 .feat h3 {
   font-size: 1.3rem;
   margin: 16px 0 6px;
@@ -541,9 +558,54 @@ nav a:hover {
   border-radius: 50%;
   background: var(--accent);
 }
+.people {
+  display: grid;
+  gap: 20px;
+  margin-top: 20px;
+}
+.person {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  align-items: center;
+  gap: 16px;
+}
+.person-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+}
+.person-photo > .foto-destaque {
+  object-position: center top;
+}
+/* Enquadramentos de 240 x 300 na foto original de 2000 x 1414. */
+.person-photo > .rosto-gestor {
+  inset: auto;
+  width: 833.333333%;
+  height: 471.333333%;
+  max-width: none;
+  object-fit: fill;
+}
+.person-photo > .rosto-rosely {
+  left: -145.833333%;
+  top: -166.666667%;
+}
+.person-photo > .rosto-nathanael {
+  left: -412.5%;
+  top: -150%;
+}
+.person-info h3 {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
+}
 .people p {
+  margin: 4px 0 0;
   color: var(--muted);
   font-size: 0.95rem;
+}
+@media (max-width: 480px) {
+  .person {
+    grid-template-columns: 80px minmax(0, 1fr);
+    gap: 12px;
+  }
 }
 .faq details {
   border-bottom: 1px solid var(--line);
@@ -684,7 +746,7 @@ footer .cols {
 .nv-logo {
   display: none;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1320px) {
   .brand img {
     height: 38px;
   }
@@ -705,6 +767,7 @@ footer .cols {
   color: #fff;
 }
 .tt {
+  flex-shrink: 0;
   order: 2;
   display: inline-flex;
   align-items: center;
@@ -744,8 +807,10 @@ nav {
 }
 .bar > .btn {
   order: 3;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1320px) {
   .tt {
     order: 0;
     margin-left: auto;
@@ -781,4 +846,13 @@ nav {
 }
 #servicos .ph:has(> .foto-servico)::after {
   display: none;
+}
+
+@media (max-width: 480px) {
+  .bar {
+    gap: 10px;
+  }
+  .bar nav a {
+    white-space: normal;
+  }
 }

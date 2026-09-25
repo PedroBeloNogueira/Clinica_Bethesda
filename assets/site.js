@@ -12,7 +12,7 @@ const U = [
     "(96) 98125-3776",
   ],
   [
-    "Bethesda TEA",
+    "Bethesda Espaços de Gênios",
     "Terapias e desenvolvimento infantil",
     "Av. Anhanguera, 1478A, Buritizal, Macapá",
     null,
@@ -67,7 +67,7 @@ const mp = (i) =>
 const CAT = {
   c: "Consultas e especialidades",
   m: "Saúde mental",
-  t: "TEA e desenvolvimento",
+  t: "Espaços de Gênios e desenvolvimento",
   r: "Reabilitação e bem-estar",
   e: "Exames e diagnóstico",
   a: "Ambulatório e cuidado em casa",
