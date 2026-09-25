@@ -68,7 +68,6 @@ fs.writeFileSync(
   "// Aplica o tema salvo antes de exibir a página.\n" + themeScript,
 );
 const images = new Map();
-fs.mkdirSync(path.join(root, "assets/images"), { recursive: true });
 for (const [file, type, arg] of destinations) {
   const base = file.includes("/") ? "../" : "./";
   let html = source
@@ -131,10 +130,14 @@ for (const [file, type, arg] of destinations) {
             ? "logo.svg"
             : `logo-${images.size}.svg`;
       images.set(data, filename);
-      fs.writeFileSync(path.join(root, "assets/images", filename), Buffer.from(data, "base64"));
+      fs.writeFileSync(path.join(root, filename), Buffer.from(data, "base64"));
     }
-    return `${base}assets/images/${images.get(data)}`;
+    return `${base}${images.get(data)}`;
   });
+  html = html.replace(
+    /src="\.\.\/([^"/]+\.(?:png|jpe?g|webp|gif|svg))"/gi,
+    (_, filename) => `src="${base}${filename}"`,
+  );
   fs.mkdirSync(path.dirname(path.join(root, file)), { recursive: true });
   fs.writeFileSync(path.join(root, file), html);
 }

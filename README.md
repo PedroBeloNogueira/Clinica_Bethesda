@@ -11,7 +11,7 @@ Execute `node scripts/serve.cjs` e acesse http://127.0.0.1:4173. Também é poss
 - `assets/styles.css`: cores, fontes, espaçamentos, temas e layout responsivo.
 - `assets/site.js`: busca, filtros, botões e menu.
 - `assets/theme.js`: aplicação do tema salvo antes de carregar a página.
-- `assets/images/`: logo e favicon em SVG, extraídos das imagens originais.
+- Raiz do projeto: fotos, logo e favicon utilizados pelas páginas.
 
 Os arquivos estão formatados com indentação de dois espaços. Não é necessário compilar para editar e visualizar o site: salve o arquivo e atualize o navegador. Para formatar novamente, execute `node scripts/format.cjs` com a dependência de desenvolvimento Prettier instalada.
 
