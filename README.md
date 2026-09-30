@@ -20,3 +20,11 @@ Para hospedar, envie os arquivos HTML da raiz e as pastas assets, servicos e uni
 O original está preservado em `prototipo/index.html` apenas como referência. O script `scripts/build.cjs` permite reconstruir a conversão a partir dele, mas sobrescreve edições nos arquivos do site; não é necessário executá-lo no uso normal. O CSS mantém as regras originais, com formatação legível. Os espaços reservados para imagens e os dados de contato foram preservados. A fonte continua sendo carregada do Google Fonts, como no original.
 
 Páginas: início, serviços, sete categorias de serviços, Bethesda TEA, Home Care, saúde ocupacional, convênios, sobre e sete unidades. Links antigos com #/ continuam funcionando.
+
+## Catálogo de produtos
+
+`produtos.html` apresenta 19 fichas da revista `Revista_Agora_Vai_Padronizada_Ativos.pdf`, com busca, categorias e carrinho salvo no navegador. A página inicial e os menus dão acesso ao catálogo. `assets/products-data.js` contém nomes, descrições, volumes, preços em centavos, origem, uso e página da fonte; `assets/images/produtos/` contém as imagens extraídas da revista. Itens citados somente na tabela de queixas, sem ficha comercial, não foram cadastrados.
+
+O botão de finalizar abre uma mensagem editável no WhatsApp da Matriz, **55 96 98125-3776**, configurado em `assets/marketplace.js`. Inclui nome, categoria, volume e quantidade de cada produto, solicitando disponibilidade e confirmação de valores e entrega. Não há cobrança, reserva de estoque ou envio automático. Os preços são referências da revista; dados ausentes e instruções de aplicação incompletas estão indicados nas fichas.
+
+O comportamento está em `assets/marketplace.js` e os estilos em `assets/marketplace.css`. Edite diretamente esses arquivos; a reconstrução pelo protótipo também remove os novos links dos menus e o destaque na página inicial.
